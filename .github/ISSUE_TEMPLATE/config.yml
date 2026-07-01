@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Official website
+    url: https://deltacapitalhk.com
+    about: Use official contact channels for case-specific or private matters.
+  - name: Email
+    url: mailto:support@deltacapitalhk.com
+    about: Do not submit sensitive case materials through public GitHub issues.

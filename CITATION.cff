@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use or reference this public documentation playbook, please cite it as below."
+title: "Digital Asset Incident Response Playbook"
+type: dataset
+authors:
+  - name: "Delta&Capital"
+    website: "https://deltacapitalhk.com"
+repository-code: "https://github.com/DeltaCapitalHK/digital-asset-incident-response-playbook"
+url: "https://github.com/DeltaCapitalHK/digital-asset-incident-response-playbook"
+date-released: "2026-07-01"
+license: "CC-BY-4.0"
