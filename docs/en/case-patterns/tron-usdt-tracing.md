@@ -4,6 +4,25 @@ This page describes a common TRON-based USDT scam or theft scenario where TRC20-
 
 It is an anonymized educational pattern, not a promise of freezing or recovery.
 
+## Anonymized Case Summary
+
+In one anonymized investment-scam scenario, a victim transferred approximately 327,684 USDT to TRON addresses provided by the counterparty. After receipt, the funds moved through a TRON single-chain laundering path involving newly activated addresses, similar energy sources, peel-chain transfers, consolidation, and suspected exchange deposit behavior.
+
+The documentation work in this pattern focuses on three layers: confirming the victim's first loss transaction and lawful ownership, reconstructing the TRON-side splitting and consolidation path, and preparing a structured evidence package for exchange, issuer, legal, or law-enforcement review.
+
+The public case pattern can be summarized as:
+
+```text
+Victim wallet
+  -> scam recipient address on TRON
+  -> activation / energy-source related addresses
+  -> peel-chain transfers
+  -> consolidation address
+  -> suspected exchange deposit address
+```
+
+Real wallet addresses, transaction hashes, exchange accounts, law-enforcement documents, and personal identifiers are not published.
+
 ## Typical Scenario
 
 A victim transfers TRC20-USDT to an address controlled by a scammer, or funds are moved from a compromised wallet. The downstream path may include:
@@ -45,6 +64,19 @@ On TRON, new addresses are often activated, and TRC20 transfers require energy o
 ### Exchange Deposit Indicators
 
 Potential exchange indicators may include repeated inbound flows, deposit-like behavior, high-frequency collection, and movement to known hot-wallet structures. Attribution should be stated carefully unless confirmed.
+
+## Evidence Package Structure
+
+```text
+01-incident-narrative
+02-first-loss-transactions
+03-tron-address-activation-and-energy-source-analysis
+04-downstream-splitting-and-consolidation-path
+05-suspected-exchange-deposit-address-notes
+06-source-of-funds-and-ownership-materials
+07-reporting-or-legal-process-support-materials
+08-exchange-or-issuer-contact-package
+```
 
 ## Important Notice
 

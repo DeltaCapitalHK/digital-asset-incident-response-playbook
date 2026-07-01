@@ -2,6 +2,26 @@
 
 This page describes a cross-chain scenario where USDT starts on BNB Smart Chain and later appears on TRON through bridge, swap, or consolidation activity.
 
+## Anonymized Case Summary
+
+In one anonymized investment-scam scenario, a victim transferred approximately 295,590 USDT to a BNB Smart Chain address. The funds first appeared as BEP20-USDT, then moved through splitting and consolidation activity before crossing to TRON. On the TRON side, the funds continued as TRC20-USDT and showed suspected centralized-exchange deposit behavior.
+
+The main difficulty is continuity. A victim may only see the first BSC transfer, while the later TRON-side flow is not obvious without bridge-event matching and destination-chain reconstruction.
+
+The public case pattern can be summarized as:
+
+```text
+BSC victim wallet
+  -> BSC scam recipient
+  -> BSC splitting / consolidation path
+  -> bridge contract or bridge route
+  -> TRON destination address
+  -> TRON consolidation address
+  -> suspected exchange deposit address
+```
+
+Real addresses, hashes, exchange accounts, bridge-specific internal details, and personal identifiers are not published.
+
 ## Typical Scenario
 
 The victim sends BEP20-USDT to a BSC address. The funds are then split, swapped, bridged to TRON, converted or released as TRC20-USDT, and may later consolidate or enter an exchange.
@@ -40,6 +60,19 @@ Victim wallet -> BSC recipient -> bridge/swap path -> TRON recipient -> downstre
 ```
 
 Each segment should be supported by transaction hashes, timestamps, and amount relationships.
+
+## Evidence Package Structure
+
+```text
+01-bsc-first-loss-transaction
+02-bsc-downstream-splitting-and-consolidation
+03-bridge-event-matching
+04-tron-destination-chain-receipt
+05-tron-downstream-consolidation
+06-suspected-exchange-deposit-address-notes
+07-source-of-funds-and-ownership-materials
+08-reporting-exchange-or-issuer-contact-materials
+```
 
 ## Important Notice
 
