@@ -8,18 +8,14 @@ In one anonymized fake-arbitrage-platform scenario, a victim transferred approxi
 
 The main difficulty is that the path is fragmented across swaps, wrapped assets, bridge events, and destination-chain transactions. The documentation task is to decode each segment and rebuild a continuous evidence chain.
 
-The public case pattern can be summarized as:
+The public case pattern can be summarized at a high level. Detailed DEX route decoding, bridge matching, and node attribution methods are not published:
 
 ```text
 Victim wallet
-  -> EVM recipient address
-  -> multi-step DEX swaps
-  -> wrapped or bridge asset
-  -> bridge route
-  -> TRON destination address
-  -> destination-chain swap
-  -> consolidation address
-  -> suspected exchange deposit address
+  -> EVM suspicious recipient
+  -> multi-step swaps and cross-chain movement
+  -> destination-chain downstream flow
+  -> suspected platform or other reviewable node
 ```
 
 Real addresses, transaction hashes, exchange accounts, bridge-internal records, and personal identifiers are not published.
@@ -69,17 +65,15 @@ After funds reach the destination chain, reconstruct swaps, consolidation, and p
 
 If funds appear to reach an exchange, the full path before exchange entry should be prepared before submitting a support ticket or preservation request.
 
-## Evidence Package Structure
+## Public Material Categories
 
 ```text
-01-first-loss-transaction-and-incident-narrative
-02-evm-source-chain-recipient-and-dex-swap-path
-03-bridge-event-matching
-04-destination-chain-receipt-and-reswap-records
-05-consolidation-and-suspected-exchange-entry-notes
-06-source-of-funds-and-ownership-materials
-07-complete-fund-flow-description
-08-reporting-exchange-or-issuer-contact-materials
+first-loss transaction and incident narrative
+source-chain path summary
+cross-chain transfer summary
+destination-chain downstream summary
+source-of-funds and ownership materials
+reporting exchange or issuer contact materials
 ```
 
 ## Important Notice

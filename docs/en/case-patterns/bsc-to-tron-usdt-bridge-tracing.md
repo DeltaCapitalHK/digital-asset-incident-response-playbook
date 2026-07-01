@@ -8,16 +8,14 @@ In one anonymized investment-scam scenario, a victim transferred approximately 2
 
 The main difficulty is continuity. A victim may only see the first BSC transfer, while the later TRON-side flow is not obvious without bridge-event matching and destination-chain reconstruction.
 
-The public case pattern can be summarized as:
+The public case pattern can be summarized at a high level. Detailed bridge matching, node attribution, and internal analysis steps are not published:
 
 ```text
 BSC victim wallet
-  -> BSC scam recipient
-  -> BSC splitting / consolidation path
-  -> bridge contract or bridge route
-  -> TRON destination address
-  -> TRON consolidation address
-  -> suspected exchange deposit address
+  -> BSC suspicious recipient
+  -> cross-chain transfer
+  -> TRON-side downstream movement
+  -> suspected platform or other reviewable node
 ```
 
 Real addresses, hashes, exchange accounts, bridge-specific internal details, and personal identifiers are not published.
@@ -61,17 +59,14 @@ Victim wallet -> BSC recipient -> bridge/swap path -> TRON recipient -> downstre
 
 Each segment should be supported by transaction hashes, timestamps, and amount relationships.
 
-## Evidence Package Structure
+## Public Material Categories
 
 ```text
-01-bsc-first-loss-transaction
-02-bsc-downstream-splitting-and-consolidation
-03-bridge-event-matching
-04-tron-destination-chain-receipt
-05-tron-downstream-consolidation
-06-suspected-exchange-deposit-address-notes
-07-source-of-funds-and-ownership-materials
-08-reporting-exchange-or-issuer-contact-materials
+BSC-side key transactions
+cross-chain transfer summary
+TRON-side path summary
+source-of-funds and ownership materials
+reporting exchange or issuer contact materials
 ```
 
 ## Important Notice

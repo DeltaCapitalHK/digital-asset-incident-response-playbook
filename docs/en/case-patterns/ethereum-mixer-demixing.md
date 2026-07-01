@@ -10,15 +10,14 @@ In one anonymized wallet-theft scenario, approximately 119.78 ETH was moved out 
 
 The key difficulty is that ETH is a native asset and does not have the same issuer-freeze mechanism as some stablecoins. The practical focus is to reconstruct the pre-mixer path, identify candidate post-mixer relationships, label confidence levels, and prepare exchange or legal-process materials quickly if funds approach a cooperative platform.
 
-The public case pattern can be summarized as:
+The public case pattern can be summarized at a high level. Candidate filtering, confidence modeling, and attribution details are not published:
 
 ```text
 Victim wallet
-  -> attacker collection address
-  -> fixed-denomination mixer deposits
-  -> candidate withdrawal addresses
-  -> downstream peeling / consolidation
-  -> suspected exchange deposit address
+  -> suspicious collection address
+  -> privacy or mixing path
+  -> candidate downstream path
+  -> suspected platform or other reviewable node
 ```
 
 Real mixer identifiers, wallet addresses, hashes, exchange accounts, and personal identifiers are not published.
@@ -52,25 +51,22 @@ Deposits and withdrawals may be compared within a defined time window. Timing al
 
 Fixed-denomination pools may support candidate matching, but matching denominations do not prove ownership by themselves.
 
-### Gas Source and Address Reuse
+### Behavioral Features and Address Relationships
 
-Gas funding sources, address reuse, downstream consolidation, and behavioral patterns may increase confidence.
+Downstream behavior, address relationships, and consolidation direction may increase confidence when they are consistent with the earlier path.
 
 ### Confidence Labels
 
 Use clear labels such as high confidence, medium confidence, low confidence, or pending platform/law-enforcement verification.
 
-## Evidence Package Structure
+## Public Material Categories
 
 ```text
-01-wallet-compromise-or-phishing-narrative
-02-first-theft-transaction-and-attacker-collection-address
-03-mixer-deposit-transaction-list
-04-candidate-withdrawal-address-and-timing-window-analysis
-05-gas-source-address-reuse-and-behavioral-pattern-notes
-06-downstream-consolidation-or-exchange-entry-notes
-07-confidence-level-labels
-08-exchange-law-enforcement-or-legal-process-support-materials
+wallet compromise or phishing narrative
+key transaction records
+mixing-path summary
+candidate downstream direction and confidence notes
+exchange law-enforcement or legal-process support materials
 ```
 
 ## Native Asset Consideration
