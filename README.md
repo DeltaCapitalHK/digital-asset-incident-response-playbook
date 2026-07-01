@@ -2,7 +2,7 @@
 
 **By Delta&Capital (德尔泰)**
 
-A bilingual public playbook for organizing materials after digital asset incidents, including USDT scams, wallet theft, cold wallet compromise, phishing approvals, fake investment platforms, cross-chain transfers, mixer exposure, and exchange-facing evidence preparation.
+A bilingual public playbook for organizing materials after digital asset incidents, including USDT scams, wallet theft, cold wallet compromise, phishing approvals, fake investment platforms, complex asset-flow review, and exchange-facing evidence preparation.
 
 | Field | Description |
 |---|---|
@@ -26,7 +26,7 @@ This repository is designed for users who need to organize case materials after 
 - Seed phrase, private key, or device compromise
 - Phishing approval or malicious smart-contract authorization
 - Fake investment platform, fake exchange, fake customer support, or romance-investment scam
-- DEX swaps, bridge transfers, chain-hopping, mixer exposure, or exchange deposit clustering
+- Complex multi-network movement, privacy-oriented paths, or platform-facing fund-flow review
 - Preparing materials before contacting an exchange, stablecoin issuer, legal advisor, or law enforcement agency
 
 ## What You Should Prepare First
@@ -59,9 +59,9 @@ These case-pattern notes are anonymized, educational descriptions of common trac
 | Pattern | English | 中文 |
 |---|---|---|
 | TRON USDT single-chain tracing | [TRON USDT tracing](docs/en/case-patterns/tron-usdt-tracing.md) | [TRON单链USDT追踪](docs/zh-CN/案例场景/TRON单链USDT追踪.md) |
-| BSC to TRON bridge tracing | [BSC to TRON USDT tracing](docs/en/case-patterns/bsc-to-tron-usdt-bridge-tracing.md) | [BSC到TRON跨链USDT追踪](docs/zh-CN/案例场景/BSC到TRON跨链USDT追踪.md) |
-| Ethereum mixer demixing | [Ethereum mixer demixing](docs/en/case-patterns/ethereum-mixer-demixing.md) | [以太坊混币器拆混追踪](docs/zh-CN/案例场景/以太坊混币器拆混追踪.md) |
-| Chain-hopping | [Chain-hopping tracing](docs/en/case-patterns/chain-hopping-tracing.md) | [跨链跳转Chain-Hopping追踪](docs/zh-CN/案例场景/跨链跳转Chain-Hopping追踪.md) |
+| Cross-network USDT flow | [Cross-network USDT flow](docs/en/case-patterns/cross-network-usdt-flow.md) | [跨网络USDT流转场景](docs/zh-CN/案例场景/跨网络USDT流转场景.md) |
+| Ethereum obfuscated flow | [Ethereum obfuscated flow](docs/en/case-patterns/ethereum-obfuscated-flow.md) | [以太坊隐私化路径资金流转场景](docs/zh-CN/案例场景/以太坊隐私化路径资金流转场景.md) |
+| Complex cross-network flow | [Complex cross-network flow](docs/en/case-patterns/complex-cross-network-flow.md) | [复杂跨网络资金流转场景](docs/zh-CN/案例场景/复杂跨网络资金流转场景.md) |
 
 ## Important Notice
 

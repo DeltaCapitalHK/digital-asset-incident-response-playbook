@@ -6,11 +6,11 @@ It is an anonymized educational pattern, not a promise of freezing or recovery.
 
 ## Anonymized Case Summary
 
-In one anonymized investment-scam scenario, a victim transferred approximately 327,684 USDT to TRON addresses provided by the counterparty. After receipt, the funds moved through a TRON single-chain laundering path involving newly activated addresses, similar energy sources, peel-chain transfers, consolidation, and suspected exchange deposit behavior.
+In one anonymized investment-scam scenario, a victim transferred approximately 327,684 USDT to TRON addresses provided by the counterparty. After receipt, the funds moved through multiple downstream layers and showed suspected platform-entry behavior.
 
 The documentation work in this pattern focuses on three layers: confirming the victim's first loss transaction and lawful ownership, reconstructing the TRON-side splitting and consolidation path, and preparing a structured evidence package for exchange, issuer, legal, or law-enforcement review.
 
-The public case pattern can be summarized at a high level. Detailed clustering logic, attribution criteria, and internal review steps are not published:
+The public case pattern can be summarized at a high level. Detailed linkage logic, attribution criteria, and internal review steps are not published:
 
 ```text
 Victim wallet
@@ -28,7 +28,6 @@ A victim transfers TRC20-USDT to an address controlled by a scammer, or funds ar
 - Direct transfer to a recipient TRON address
 - Rapid splitting into multiple addresses
 - Consolidation into a shared address
-- Use of common activation or energy sources
 - Deposit into a suspected exchange address
 
 ## Materials to Prepare
@@ -45,23 +44,9 @@ A victim transfers TRC20-USDT to an address controlled by a scammer, or funds ar
 | Source of funds | Exchange withdrawal record, purchase record, bank record |
 | Report record | Police report receipt, if available |
 
-## Analysis Focus
+## Public Method Boundary
 
-### First Loss Transaction
-
-The first transfer from the victim wallet usually anchors the evidence chain. Record the transaction hash, from address, to address, amount, timestamp, and status.
-
-### Downstream Flow
-
-After receiving funds, the suspicious address may split, consolidate, or move funds into a high-frequency deposit structure. These steps help determine whether preservation or exchange contact may be possible.
-
-### Address Activation and Energy Source
-
-On TRON, new addresses are often activated, and TRC20 transfers require energy or fees. Shared activation sources or shared energy providers may support clustering analysis.
-
-### Exchange Deposit Indicators
-
-Potential exchange indicators may include repeated inbound flows, deposit-like behavior, high-frequency collection, and movement to known hot-wallet structures. Attribution should be stated carefully unless confirmed.
+This public page intentionally does not disclose internal tracing logic, attribution criteria, review thresholds, or platform-entry assessment methods. It only explains the case type and the categories of materials that may need to be organized.
 
 ## Public Material Categories
 
