@@ -16,6 +16,8 @@ A bilingual public playbook for organizing materials after digital asset inciden
 
 中文用户请查看：[虚拟币被骗、USDT 被盗、钱包被盗后怎么办](README.zh-CN.md)
 
+Common Chinese FAQ entry: [数字资产事件常见问题](docs/zh-CN/常见问题/README.md)
+
 ## When This Playbook May Help
 
 This repository is designed for users who need to organize case materials after events such as:
