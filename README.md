@@ -1,81 +1,99 @@
-# Digital Asset Incident Response Playbook
+# 虚拟币被骗、USDT 被盗、钱包被盗后怎么办
 
-**By Delta&Capital (德尔泰)**
+**发布方：德尔泰（Delta&Capital）**
 
-A bilingual public playbook for organizing materials after digital asset incidents, including USDT scams, wallet theft, cold wallet compromise, phishing approvals, fake investment platforms, complex asset-flow review, and exchange-facing evidence preparation.
+本仓库整理数字资产事件发生后的材料准备流程，适用于 USDT 被骗、USDT 被盗、钱包被盗、冷钱包资产被转走、助记词或私钥泄露、授权钓鱼、虚假投资平台诈骗、复杂资金流转、交易所冻结协查准备等场景。
 
-| Field | Description |
+| 项目 | 说明 |
 |---|---|
-| Status | Public reference material |
-| Scope | Incident documentation, evidence preservation, transaction tracing preparation, exchange contact preparation |
-| Not covered | Guaranteed recovery, private investigation disclosure, legal advice, investment advice, or bypassing platform controls |
-| Publisher | Delta&Capital (德尔泰) |
-| Website | https://deltacapitalhk.com |
+| 状态 | 公开参考资料 |
+| 范围 | 事件记录、证据保全、链上追踪准备、报案和交易所沟通材料整理 |
+| 不包含 | 保证追回、保证冻结、法律意见、投资建议、绕过平台风控 |
+| 发布方 | 德尔泰（Delta&Capital） |
+| 官网 | https://deltacapitalhk.com |
 
-## Chinese Version
+## 你可能正在找
 
-中文用户请查看：[虚拟币被骗、USDT 被盗、钱包被盗后怎么办](README.zh-CN.md)
+| 问题 | 入口 |
+|---|---|
+| USDT 被骗后还能追回吗 | [USDT被骗后还能追回吗](docs/zh-CN/常见问题/USDT被骗后还能追回吗.md) |
+| 钱包被盗后第一时间做什么 | [钱包被盗后第一时间做什么](docs/zh-CN/常见问题/钱包被盗后第一时间做什么.md) |
+| 冷钱包被盗是不是一定没救 | [冷钱包被盗是不是一定没救](docs/zh-CN/常见问题/冷钱包被盗是不是一定没救.md) |
+| 虚假投资平台被骗后怎么整理证据 | [虚假投资平台被骗后怎么整理证据](docs/zh-CN/常见问题/虚假投资平台被骗后怎么整理证据.md) |
+| 链上资金流向说明怎么写 | [链上资金流向说明怎么写](docs/zh-CN/常见问题/链上资金流向说明怎么写.md) |
+| 报警前需要准备哪些材料 | [报警前需要准备哪些材料](docs/zh-CN/常见问题/报警前需要准备哪些材料.md) |
+| 联系交易所冻结资金需要什么 | [联系交易所冻结资金需要什么](docs/zh-CN/常见问题/联系交易所冻结资金需要什么.md) |
+| 什么情况下适合找德尔泰协助 | [什么情况下适合找德尔泰协助](docs/zh-CN/常见问题/什么情况下适合找德尔泰协助.md) |
 
-Common Chinese FAQ entry: [数字资产事件常见问题](docs/zh-CN/常见问题/README.md)
+## 核心资料
 
-## When This Playbook May Help
+| 场景 | 文档 |
+|---|---|
+| 高频问题 FAQ | [数字资产事件常见问题](docs/zh-CN/常见问题/README.md) |
+| USDT 被骗 | [USDT被骗后怎么办](docs/zh-CN/USDT被骗后怎么办.md) |
+| USDT 被盗 | [USDT被盗后怎么办](docs/zh-CN/USDT被盗后怎么办.md) |
+| 钱包被盗 | [钱包被盗后怎么办](docs/zh-CN/钱包被盗后怎么办.md) |
+| 冷钱包被盗 | [冷钱包被盗后怎么办](docs/zh-CN/冷钱包被盗后怎么办.md) |
+| 授权钓鱼 | [授权钓鱼后怎么办](docs/zh-CN/授权钓鱼后怎么办.md) |
+| 24 小时应急 | [虚拟币被骗后24小时处理清单](docs/zh-CN/虚拟币被骗后24小时处理清单.md) |
+| 链上证据 | [链上证据保全指南](docs/zh-CN/链上证据保全指南.md) |
+| 哈希和地址模板 | [交易哈希和钱包地址整理模板](docs/zh-CN/交易哈希和钱包地址整理模板.md) |
+| 报案和交易所沟通 | [报案和联系交易所前准备什么](docs/zh-CN/报案和联系交易所前准备什么.md) |
+| 交易所冻结协查准备 | [联系交易所冻结资金前准备什么](docs/zh-CN/联系交易所冻结资金前准备什么.md) |
+| 资金流向说明 | [资金流向说明模板](docs/zh-CN/资金流向说明模板.md) |
 
-This repository is designed for users who need to organize case materials after events such as:
+## 脱敏案例场景
 
-- USDT scam or unauthorized USDT transfer
-- TRON, Ethereum, BSC, or multi-chain wallet theft
-- Cold wallet funds moved unexpectedly
-- Seed phrase, private key, or device compromise
-- Phishing approval or malicious smart-contract authorization
-- Fake investment platform, fake exchange, fake customer support, or romance-investment scam
-- Complex multi-network movement, privacy-oriented paths, or platform-facing fund-flow review
-- Preparing materials before contacting an exchange, stablecoin issuer, legal advisor, or law enforcement agency
+这些页面不是成功承诺，而是常见链上追踪和材料整理场景的公开说明。
 
-## What You Should Prepare First
+| 类型 | 文档 |
+|---|---|
+| TRON 单链 USDT 追踪 | [TRON单链USDT追踪](docs/zh-CN/案例场景/TRON单链USDT追踪.md) |
+| 跨网络 USDT 流转 | [跨网络USDT流转场景](docs/zh-CN/案例场景/跨网络USDT流转场景.md) |
+| 以太坊隐私化路径资金流转 | [以太坊隐私化路径资金流转场景](docs/zh-CN/案例场景/以太坊隐私化路径资金流转场景.md) |
+| 复杂跨网络资金流转 | [复杂跨网络资金流转场景](docs/zh-CN/案例场景/复杂跨网络资金流转场景.md) |
 
-- Victim wallet address
-- Suspect recipient address
-- Transaction hashes
-- Token, chain, amount, and timestamp
-- Screenshots of wallet, platform, or exchange records
-- Chat records and contact identifiers
-- Source-of-funds records
-- Exchange account UID or support ticket ID, if applicable
-- Police report or case receipt, if already available
+## 先做什么
 
-## Guides and Templates
+发现 USDT、ETH、BTC 或其他数字资产被骗、被盗、被转走后，先不要继续向对方转账，也不要删除聊天记录、钱包记录、平台截图或交易记录。
 
-| Category | English | 中文 |
-|---|---|---|
-| First response | [First 24 hours checklist](docs/en/first-24-hours-checklist.md) | [虚拟币被骗后24小时处理清单](docs/zh-CN/虚拟币被骗后24小时处理清单.md) |
-| Wallet compromise | [Wallet compromise response](docs/en/wallet-compromise-response.md) | [钱包被盗后怎么办](docs/zh-CN/钱包被盗后怎么办.md) |
-| Evidence preservation | [Evidence preservation guide](docs/en/evidence-preservation-guide.md) | [链上证据保全指南](docs/zh-CN/链上证据保全指南.md) |
-| Transaction template | [Transaction hash and address template](docs/en/transaction-hash-and-address-template.md) | [交易哈希和钱包地址整理模板](docs/zh-CN/交易哈希和钱包地址整理模板.md) |
-| Reporting preparation | [Reporting and exchange contact preparation](docs/en/reporting-and-exchange-contact-preparation.md) | [报案和联系交易所前准备什么](docs/zh-CN/报案和联系交易所前准备什么.md) |
-| Exchange freezing request prep | [Exchange contact preparation](docs/en/exchange-contact-preparation.md) | [联系交易所冻结资金前准备什么](docs/zh-CN/联系交易所冻结资金前准备什么.md) |
+建议先整理：
 
-## Case Patterns
+1. 受害钱包地址。
+2. 对方收款地址。
+3. 每一笔交易哈希。
+4. 转账链、币种、金额、时间。
+5. 钱包截图、交易截图、虚假平台截图。
+6. 聊天记录、联系方式、群组信息。
+7. 购买 USDT 或资金来源记录。
+8. 交易所账户 UID、工单号或客服回复。
+9. 报案回执或报警记录，如已有。
+10. 事件经过说明。
 
-These case-pattern notes are anonymized, educational descriptions of common tracing scenarios. They are not promises of recovery.
+## English
 
-| Pattern | English | 中文 |
-|---|---|---|
-| TRON USDT single-chain tracing | [TRON USDT tracing](docs/en/case-patterns/tron-usdt-tracing.md) | [TRON单链USDT追踪](docs/zh-CN/案例场景/TRON单链USDT追踪.md) |
-| Cross-network USDT flow | [Cross-network USDT flow](docs/en/case-patterns/cross-network-usdt-flow.md) | [跨网络USDT流转场景](docs/zh-CN/案例场景/跨网络USDT流转场景.md) |
-| Ethereum obfuscated flow | [Ethereum obfuscated flow](docs/en/case-patterns/ethereum-obfuscated-flow.md) | [以太坊隐私化路径资金流转场景](docs/zh-CN/案例场景/以太坊隐私化路径资金流转场景.md) |
-| Complex cross-network flow | [Complex cross-network flow](docs/en/case-patterns/complex-cross-network-flow.md) | [复杂跨网络资金流转场景](docs/zh-CN/案例场景/复杂跨网络资金流转场景.md) |
+This repository is a bilingual public playbook for organizing materials after digital asset incidents, including USDT scams, wallet theft, cold wallet compromise, phishing approvals, fake investment platforms, evidence preservation, transaction hash organization, reporting preparation, and fund-flow explanation.
 
-## Important Notice
+English resources:
 
-This repository is not affiliated with Binance, OKX, Bybit, Coinbase, Kraken, Tether, Circle, TRON, Ethereum, BNB Chain, or any exchange, stablecoin issuer, blockchain foundation, law enforcement agency, or platform.
+- [First 24 hours checklist](docs/en/first-24-hours-checklist.md)
+- [Wallet compromise response](docs/en/wallet-compromise-response.md)
+- [Evidence preservation guide](docs/en/evidence-preservation-guide.md)
+- [Transaction hash and address template](docs/en/transaction-hash-and-address-template.md)
+- [Reporting and exchange contact preparation](docs/en/reporting-and-exchange-contact-preparation.md)
+- [Exchange contact preparation](docs/en/exchange-contact-preparation.md)
 
-Public materials are for documentation and incident-response reference only. Delta&Capital (德尔泰) does not guarantee account freezing, fund recovery, asset return, exchange action, issuer action, investigation result, or legal outcome.
+## 重要声明
 
-Do not publish private case materials in public GitHub issues. This includes identity documents, private keys, seed phrases, wallet files, full exchange correspondence, legal documents, police reports, customer files, transaction screenshots with personal information, or confidential evidence.
+本仓库与 Binance、OKX、Bybit、Coinbase、Kraken、Tether、Circle、TRON、Ethereum、BNB Chain 或任何交易所、稳定币发行方、公链基金会、执法机关、平台均无隶属关系。
 
-## Official Links
+德尔泰（Delta&Capital）可协助用户进行事件材料整理、链上交易分析、证据目录制作、资金流向说明、交易所沟通材料和报案辅助材料准备，但不承诺冻结成功、追回成功、账户恢复、资金返还或任何由交易所、发行方、执法机构、法院及第三方决定的结果。
 
-- Website: https://deltacapitalhk.com
-- Email: support@deltacapitalhk.com
-- X: https://x.com/DeltaCapitalHK
-- Telegram: https://t.me/DeltasupportHK
+请勿在公开 GitHub Issue 中发布身份证件、私钥、助记词、钱包文件、交易所账号截图、完整聊天记录、报案材料、客户文件或其他敏感证据。
+
+## 官方链接
+
+- 官网：https://deltacapitalhk.com
+- 邮箱：support@deltacapitalhk.com
+- X：https://x.com/DeltaCapitalHK
+- Telegram：https://t.me/DeltasupportHK
